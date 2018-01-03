@@ -147,6 +147,13 @@
       </div>
     </div>
   </div>
+  <script id= "shopping-cart-template" type="text/x-handlebars-template">
+    <ul>
+      {{#each []}}
+        <li>{{name}} - ${{price}}</li>
+      {{/each}}
+    </ul>
+  </script>></script>
     <script type="text/javascript" src="jquery/dist/jquery.min.js"></script>
   <script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="handlebars/dist/handlebars.min.js"></script>

@@ -103,3 +103,7 @@ body {
 .clear-cart {
   width: 100%;
 }
+
+.shopping-cart ul {
+  list-style: none;
+}
